@@ -1,0 +1,95 @@
+body {
+    
+}
+
+.navbar {
+    background: #5D4037;
+    position: fixed;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+.nav-link {
+    font-size: large;
+    font-weight: 2rem;
+    margin-right: 1rem;
+    color: white!important;
+}
+.nav-link:hover,
+.nav-link.active {
+    color:  #f3b14d!important;
+}
+
+.my-icon {
+    color: #f3b14d!important;
+}
+
+#home {
+    font-style: italic;
+    background: #795548;
+    height: 100vh;
+}
+
+.home {
+    background: url(./img/pexels-simon-matzinger-1323550.jpg) no-repeat center;
+    background-size: 100% 100%;
+    min-height: 20rem;
+}
+
+.my-img {
+    margin-top: -100px;
+    height: 10rem;
+}
+
+.name {
+    font-size: 3rem;
+    color:  #f3b14d!important;
+
+}
+.full-stack {
+    font-size: 1.5rem;
+    color: white;
+}
+.contact-btn {
+    font-family: 'Courier New', Courier, monospace!important;
+    background: #f3b14d;
+    color: #5D4037;
+}
+.contact-btn:hover {
+    background: #5D4037;
+    color: #f3b14d;
+}
+
+
+
+#about {
+    height: 100vh;
+}
+
+@media(max-width: 768px) {
+    .my-img {
+        margin-top: -50px;
+        height: 8rem;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .full-stack {
+        font-size: 1rem;
+        color: white;
+    }
+    .contact-btn {
+        font-size: 1rem;
+    }
+}
+@media(max-width: 576px) {
+    .my-img {
+        margin-top: -50px;
+        height: 7rem;
+    }
+}
+@media(max-width: 400px) {
+    .my-img {
+        margin-top: -50px;
+        height: 5.5rem;
+    }
+}
