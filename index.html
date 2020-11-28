@@ -10,10 +10,10 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark p-0">
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark p-0">
         <div class="container">
             <a href="#home" class="navbar-brand">
-                <img src="./img/batman.jpg" class="img-fluid rounded-circle" alt="Logo" width="50">
+                <img src="./img/my-photo.jpg" class="img-fluid rounded-circle" alt="Logo" width="50">
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -21,26 +21,32 @@
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link"><i class="fas fa-home my-icon mr-2"></i>Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link"><i class="fas fa-info-circle my-icon mr-2"></i>About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projects" class="nav-link"><i class="fas fa-cog my-icon mr-2"></i>Projects</a>
+                        <a href="#projects" class="nav-link"><i class="fas fa-align-center my-icon mr-2"></i>Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link"><i class="fas fa-cog my-icon mr-2"></i>Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><i class="fas fa-address-book my-icon mr-2"></i>Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="home" class="py-5">
+    <section id="home" class="">
         <div class="home">
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto text-center">
-                    <img src="/img/312332.jpg" alt="photo" class="img-fluid my-img rounded-circle w-25" >
+                    <img src="/img/my-photo.jpg" alt="photo" class="img-fluid my-img rounded-circle w-25" >
                     <span class="lead text-white mt-2">Hi Myself</span>
                     <p class="name">Afroz Ahmed</p>
                     <p class="full-stack">Full Stack Web Developer</p>
@@ -51,8 +57,8 @@
         </div>
     </section>
 
-    <section id="about" class="pt-4">
-        <div class="container">
+    <section id="about" class="pt-5">
+        <div class="container pt-3">
             <div class="row">
                 <div class="col-md-10 mx-auto">
                     <div class="row">
@@ -62,8 +68,8 @@
                             <p class="mb-4">I like to code everyday and always try to find the solution by searching on the Google, Github, Stackoverflow, youtube etc. whenever i get stucked.</p>
                             <p>Apart from that i spend my rest of the time with my friends, family and the good peoples around me.</p>
                         </div>
-                        <div class="col-md-4">
-                            <img src="/img/312332.jpg" alt="photo" class="img-fluid rounded-circle" style="height: 20rem;">
+                        <div class="col-md-4 text-center">
+                            <img src="/img/pexels-ketut-subiyanto-4559605.jpg" alt="photo" class="img-fluid rounded-circle about-img">
                         </div>
                     </div>
                 </div>
@@ -71,7 +77,120 @@
         </div>
     </section>
 
-    
+    <section id="projects" class="py-4">
+        <div class="container pt-4">
+            <h1 class="my-work underline mb-5">My Recent Works</h1>
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-5">
+                            <a href="https://shoppingnekoapp.herokuapp.com/products" target="_blank">
+                            <div class="work-card card card-body border border-dark p-2">
+                                <img src="/img/Screenshot (46).png" alt="" class="img-fluid my-work-img">
+                            </div>
+                        </a>
+                        <a href="https://shoppingnekoapp.herokuapp.com/products" target="_blank">
+                            <h3 class="mt-3 e-commerce">E-Commerce</h3>
+                        </a>
+                        </div>
+                        <div class="col-5">
+                            <a href="https://socialappinstaclone.herokuapp.com" target="_blank">
+                            <div class="work-card card border border-dark p-2">
+                                <img src="/img/Screenshot (48).png" alt="No-Pic" class="img-fluid my-work-img">
+                            </div>
+                        </a>
+                        <a href="https://socialappinstaclone.herokuapp.com" target="_blank">
+                            <h3 class="mt-3 e-commerce">Social App</h3>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5">
+        <div class="container">
+        <h1 class="my-skills mb-5 underline">My Skills</h1>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 html-css-js">
+                        <div class="card border border-dark card-body text-center">
+                            <div class="">
+                            <img src="/img/html,css,js.png" alt="" class="img-fluid" width="50">
+                            <p>HTML, CSS, JS</p>
+                            <p>i use html, css and javaScript to build good looking websites</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 bootstrap">
+                        <div class="card border border-dark card-body text-center">
+                            <div class="">
+                            <img src="/img/bootstrap.png" alt="" class="img-fluid" width="50">
+                            <p>BOOTSTRAP</p>
+                            <p>i use bootstrap to build responsive websites</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 react">
+                        <div class="card border border-dark card-body text-center">
+                            <div class="">
+                            <img src="/img/React.png" alt="" class="img-fluid" width="50">
+                            <p>REACT</p>
+                            <p>i use react to build frontend projects</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
+                    <div class="col-sm-6 col-md-4 node">
+                        <div class="card border border-dark card-body text-center">
+                            <div class="">
+                            <img src="/img/node.png" alt="" class="img-fluid" width="50">
+                            <p>NODE.JS</p>
+                            <p>i use node.js for my backend, restapi's and all other stuffs</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mongo">
+                        <div class="card border border-dark card-body p-2 text-center">
+                            <div class="">
+                            <img src="/img/MONGO.png" alt="" class="img-fluid" width="50">
+                            <p>MONGO DB</p>
+                            <p>i use mongodb as my database management</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="pb-5">
+        <div class="container pt-4">
+            <h1 class="my-contact underline py-4">Contacts</h1>
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-2">
+                    <a href="https://github.com/afroz214" target="_blank">
+                        <img src="/img/github.jpg" alt="" class="img-fluid" width="100">
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.linkedin.com/in/afroz-ahmed-7227731a5/" target="_blank">
+                        <img src="/img/linkedin.png" alt="" class="img-fluid linkedin-img" width="100">
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.facebook.com/profile.php?id=100008006080377" target="_blank">
+                        <img src="/img/facebook.jpg" alt="" class="img-fluid gmail-img" width="100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>

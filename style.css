@@ -1,17 +1,26 @@
 body {
-    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar {
-    background: #5D4037;
-    position: fixed;
+    /* background: #5D4037; */
+    background: rgba(97, 48, 59, 0.7);
+    /* background: #2E151B; */
     width: 100%;
-    /* background: rgba(0, 0, 0, 0.2); */
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    /* background: rgba(0, 0, 0, 0.5); */
 }
 .nav-link {
-    font-size: large;
-    font-weight: 2rem;
-    margin-right: 1rem;
+    font-size: 1rem;
+    margin-right: .5rem;
     color: white!important;
 }
 .nav-link:hover,
@@ -25,14 +34,18 @@ body {
 
 #home {
     font-style: italic;
-    background: #795548;
+  background: linear-gradient(to right, rgb(97, 48, 59), #28334AFF);
+    /* background: #2E151B; */
+    /* background: #3500D3; */
+    /* background: #116466; */
     height: 100vh;
 }
 
 .home {
-    background: url(./img/pexels-simon-matzinger-1323550.jpg) no-repeat center;
-    background-size: 100% 100%;
+    background: url(./img/pexels-danny-meneses-943096.jpg) no-repeat center;
+    background-size: cover;
     min-height: 20rem;
+    margin-top: 0;
 }
 
 .my-img {
@@ -70,8 +83,62 @@ body {
     text-decoration: underline;
     color: #f3b14d;
 }
+.about-img {
+    height: 20rem;
+}
+
+#projects {
+    height: 70vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #f3b14d;
+}
+.my-work {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;;
+}
+.my-work-img {
+    height: 15rem;
+}
+
+.work-card:hover {
+    background: #5D4037;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #5D4037;
+}
+
+#skills {
+    /* height: 80vh; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-skills {
+    font-size: 3rem;
+    color: #f3b14d;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;;
+}
+#contact {
+    background: rgb(240, 236, 236);
+    height: 40vh;
+}
+.my-contact {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
 
 @media(max-width: 768px) {
+    #home {
+        height: 90vh;
+    }
     .my-img {
         margin-top: -50px;
         height: 8rem;
@@ -86,16 +153,84 @@ body {
     .contact-btn {
         font-size: 1rem;
     }
+    #about {
+        height: 85vh;
+    }
+    .about-img {
+        height: 15rem;
+        width: 15rem;  
+        margin-top: 1rem;
+    }
+    #projects {
+        height: 55vh;
+    }
+    .my-work {
+        font-size: 2rem;
+    }
+    .my-work-img {
+        height: 10rem;
+    }
+    .react {
+        margin-top: 1rem;
+    }
+    .my-skills {
+        font-size: 2rem;
+    }
 }
 @media(max-width: 576px) {
     .my-img {
         margin-top: -50px;
         height: 7rem;
     }
+    .my-work-img {
+        height: 12rem;
+    }
+    .html-css-js {
+        margin-bottom: 1rem;
+    }
+    .node {
+        margin-bottom: 1rem;
+    }
+    .linkedin-img {
+        padding: 1rem 0 1rem 0;
+    }
+    .gmail-img {
+        padding-bottom: 2rem;
+    }
+    #contact {
+        height: 60vh;
+    }
+}
+@media(max-width: 541px) {
+    #about {
+        height: 95vh;
+    }
+}
+@media(max-width: 450px) {
+    .my-work-img {
+        height: 6rem;
+    }
+    #projects {
+        height: 40vh;
+    }
+    .e-commerce {
+        font-size: 1rem;
+    }
+    .social-app {
+        font-size: 1rem;
+    }
 }
 @media(max-width: 400px) {
+    #home {
+        height: 80vh;
+    }
     .my-img {
         margin-top: -50px;
         height: 5.5rem;
+    }
+    .about-img {
+        height: 10rem;
+        width: 10rem;
+        margin-top: 2rem;
     }
 }
