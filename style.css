@@ -201,11 +201,6 @@ a:hover {
         height: 60vh;
     }
 }
-@media(max-width: 541px) {
-    #about {
-        height: 95vh;
-    }
-}
 @media(max-width: 450px) {
     .my-work-img {
         height: 6rem;
@@ -222,15 +217,21 @@ a:hover {
 }
 @media(max-width: 400px) {
     #home {
-        height: 80vh;
+        height: 100vh;
     }
     .my-img {
         margin-top: -50px;
         height: 5.5rem;
     }
+    #about {
+        height: 100vh;
+    }
     .about-img {
-        height: 10rem;
-        width: 10rem;
-        margin-top: 2rem;
+        height: 8rem;
+        width: 8rem;
+        margin-top: 1rem;
+    }
+    #projects {
+        height: 50vh;
     }
 }
