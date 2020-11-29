@@ -33,13 +33,11 @@ html {
 }
 
 #home {
+    background: linear-gradient(to right, rgba(97, 48, 59), rgba(25, 57, 84));
     font-style: italic;
-  background: linear-gradient(to right, rgb(97, 48, 59), #28334AFF);
-    /* background: #2E151B; */
-    /* background: #3500D3; */
-    /* background: #116466; */
     height: 100vh;
 }
+
 
 .home {
     background: url(./img/pexels-danny-meneses-943096.jpg) no-repeat center;
@@ -75,7 +73,6 @@ html {
 
 
 #about {
-    height: 60vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.05rem;
 }
@@ -88,7 +85,6 @@ html {
 }
 
 #projects {
-    height: 70vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #f3b14d;
 }
@@ -114,9 +110,17 @@ a {
 a:hover {
     color: #5D4037;
 }
+.view-code-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #5D4037;
+    color: white;
+}
+.view-code-btn:hover {
+    background: white;
+    color: #5D4037;
+}
 
 #skills {
-    /* height: 80vh; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .my-skills {
@@ -127,7 +131,6 @@ a:hover {
 }
 #contact {
     background: rgb(240, 236, 236);
-    height: 40vh;
 }
 .my-contact {
     color: black;
@@ -136,33 +139,14 @@ a:hover {
 }
 
 @media(max-width: 768px) {
-    #home {
-        height: 90vh;
-    }
     .my-img {
-        margin-top: -50px;
         height: 8rem;
-    }
-    .name {
-        font-size: 2rem;
-    }
-    .full-stack {
-        font-size: 1rem;
-        color: white;
-    }
-    .contact-btn {
-        font-size: 1rem;
-    }
-    #about {
-        height: 85vh;
+        margin-top: -60px;
     }
     .about-img {
         height: 15rem;
-        width: 15rem;  
-        margin-top: 1rem;
-    }
-    #projects {
-        height: 55vh;
+        width: 15rem;
+        margin-top: 2rem;
     }
     .my-work {
         font-size: 2rem;
@@ -170,68 +154,44 @@ a:hover {
     .my-work-img {
         height: 10rem;
     }
-    .react {
-        margin-top: 1rem;
+    .e-commerce {
+        font-size: 1rem;
+    }
+    .view-code-btn {
+        font-size: .5rem;
     }
     .my-skills {
         font-size: 2rem;
     }
 }
 @media(max-width: 576px) {
+
     .my-img {
-        margin-top: -50px;
-        height: 7rem;
+        height: 6rem;
+        width: 6rem!important;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .full-stack {
+        font-size: 1rem;
+    }
+    .welcome-to {
+        font-size: .8rem;
     }
     .my-work-img {
-        height: 12rem;
+        height: 5rem;
+        width: 5rem!important;
+    }
+    .linkedin-img {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
     .html-css-js {
         margin-bottom: 1rem;
     }
-    .node {
-        margin-bottom: 1rem;
-    }
-    .linkedin-img {
-        padding: 1rem 0 1rem 0;
-    }
-    .gmail-img {
-        padding-bottom: 2rem;
-    }
-    #contact {
-        height: 60vh;
-    }
-}
-@media(max-width: 450px) {
-    .my-work-img {
-        height: 6rem;
-    }
-    #projects {
-        height: 40vh;
-    }
-    .e-commerce {
-        font-size: 1rem;
-    }
-    .social-app {
-        font-size: 1rem;
-    }
-}
-@media(max-width: 400px) {
-    #home {
-        height: 100vh;
-    }
-    .my-img {
-        margin-top: -50px;
-        height: 5.5rem;
-    }
-    #about {
-        height: 100vh;
-    }
-    .about-img {
-        height: 8rem;
-        width: 8rem;
+    .mongo {
         margin-top: 1rem;
     }
-    #projects {
-        height: 50vh;
-    }
 }
+
